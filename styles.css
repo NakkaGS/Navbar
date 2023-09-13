@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,700&display=swap');
 
 :root {
-	--font-style: 'Nunite Sans', sans-serif;
+	--font-style: 'Nunito Sans', sans-serif;
 }
 
 body {
@@ -16,28 +16,28 @@ ul {
 	display: flex;
 	flex-direction: row;
 	list-style: none;
-	padding: 25px 0;
+	padding: 15px 0;
 	border-radius: 25px;
 	border: 0.1px solid #099FFF;
 	background-color: #18181B;
-	box-shadow: 0 4px 8px 0 #00FFFF,
-				0 6px 20px 0 rgba(0, 0 ,0, 0.19);
+	box-shadow: 0 4px 8px 0 #00FFFF, 0 6px 20px 0 rgba(0, 0 ,0, 0.19);
 }
 
-li {
+li {	
+	cursor: pointer;
 	margin: auto;
 	color: white;
 	font-size: 20px;
-	cursor: pointer;
+	text-transform: lowercase;
 }
 
 li:after {
-    display: block;
-    content: '';
-    border-bottom: solid 1px #00FFFF;
-    padding-bottom: 1%;
-    transform: scaleX(0);
-    transition: transform 300ms ease-in-out;
+	display: block;
+	content: '';
+	border-bottom: solid 1px #00FFFF;
+	padding-bottom: 1%;
+	transform: scaleX(0);
+	transition: transform 300ms ease-in-out;
 }
 
 li:hover:after {
